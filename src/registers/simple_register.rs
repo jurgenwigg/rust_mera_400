@@ -23,3 +23,23 @@ impl Register for UniversalRegister {
         UniversalRegister{ register : vec![false;size] }
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::{UniversalRegister,Register};
+    
+    #[test_case(UniversalRegister::new())]
+    fn trait_tester(c: impl Register) {
+        assert!(0==0);
+    }
+    // use super::{Bar, Calculator, Foo};
+    // use test_case::test_case;
+
+    // #[test_case(Foo::new())]
+    // #[test_case(Bar::new())]
+    // fn trait_tester(c: impl Calculator) {
+    //     assert_eq!(c.add(2, 3), 5);
+    //     assert_eq!(c.add(10, 43), 53);
+    // }
+
+}
