@@ -1,11 +1,9 @@
-//use rust_mera_400::{Register, RegisterActions};
 extern crate rust_mera_400;
 
-use rust_mera_400::registers::api;
+use rust_mera_400::registers::simple_register::{UniversalRegister, Register};
+
 
 fn main() {
-    println!("Hello, world!");
-    //let address_register = Register{size: 16, is_available_from_sw : true};
-    //println!("{}", address_register.state())
-    api::set_bit();
+    let example_register:UniversalRegister = Register::new(3);
+    println!("{}",example_register.len())
 }
