@@ -5,6 +5,7 @@ I decided to learn Rust programming language by creating something that is not c
 
 ## Short roadmap
 - [ ] Create architecture to implement registers of CPU
+- [ ] Create CI for implemented code
 - [ ] Implement base for all registers
 - [ ] Implement universal registers
 * For all implementations tests (unit tests and, if possible, integration tests) should be also provided.
