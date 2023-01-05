@@ -16,7 +16,6 @@ impl UniversalRegister {
         let reg = &self.register;
         let temp = reg.into_iter().map(|elem| *elem as i8).into_iter();
         String::from_iter(temp.map(|elem| elem.to_string()))
-        //self.register.iter().map(|elem| elem.to_int()).
    }
 }
 impl Register for UniversalRegister {
