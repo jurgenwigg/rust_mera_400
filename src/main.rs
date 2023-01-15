@@ -62,6 +62,8 @@ impl Cpu {
                 // }
 
                 0x00 => return,
+
+                _ => return,
             }
         }
     }
