@@ -9,5 +9,8 @@ I decided to learn Rust programming language by creating something that is not c
 - [ ] Implement universal registers
 * For all implementations tests (unit tests and, if possible, integration tests) should be also provided.
 
+### Inspiration for implementation details
+Heavily inspired by: https://github.com/nicolasbauw/ZilogZ80
+
 ### Sources
 - https://mera400.pl/Rejestry_i_wskaźniki
